@@ -1,0 +1,20 @@
+# Ignore session and output archives
+sessions/
+outputs_archive/
+outputs_archive2/
+
+# Ignore any local Python cache or compiled files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments (optional if you recreate it elsewhere)
+sdxl_env/
+
+# Ignore test inputs/outputs if not needed
+example_input.png
+example_output.png
+input_test.png
+
+# Ignore backups and logs
+*.log
+*.bak
